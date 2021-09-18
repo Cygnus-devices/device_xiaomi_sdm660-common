@@ -265,14 +265,16 @@ vendor/lib64/libsdm-disp-vndapis.so|ba4978c373f9892d884d07c4cf25dba9d73fda1f
 vendor/lib64/libtinyxml2_1.so|ba981e332895a053a67fc54a8190365a3ad37f2d
 
 # Graphics (SDM) - from LA.UM.8.2.r1-07500-sdm660.0
-vendor/lib/libsdm-color.so|05e6eedb8f9656d9097a1c3cee09ceeef1025181
 vendor/lib/libsdmextension.so|ebc3f1aed53d208ccc665a173198adb9e0ed6a79
-vendor/lib64/libsdm-color.so|9c80ac4e059bff1c53814e9f5f71a5fbe38bce40
 vendor/lib64/libsdmextension.so|913503f002aa2afbeca90d429bac4bff4a2266e0
 
 # Graphics (Vulkan) - from taimen RP1A.201005.004
 vendor/lib/hw/vulkan.sdm660.so|6df3aa5c6badc46bc7a0367b9a62b0ab5b406159
 vendor/lib64/hw/vulkan.sdm660.so|f0cf8bccfcfd0473a2c0322b1274dc4d752f2abb
+
+# Graphics (SDM) - from lavender-user-10-QKQ1.190910.002-V12.5.1.0.QFGMIXM-release-keys
+vendor/lib/libsdm-color.so|2856bf71af603076b23d4c206dacba7c82350387
+vendor/lib64/libsdm-color.so|ed022cfcc1546c11b82991986e0a938464400858
 
 # IRQ balance - from jasmine
 vendor/bin/msm_irqbalance|e917104fbd26c844d27ffb2b7ec4f665fdfb8b78
