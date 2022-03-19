@@ -408,6 +408,12 @@ PRODUCT_PACKAGES += \
     WifiOverlay \
     wpa_supplicant \
     wpa_supplicant.conf
+    
+# QTI Perf Component
+TARGET_COMMON_QTI_COMPONENTS := \
+    perf \
+    telephony \
+    usb
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
