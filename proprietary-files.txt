@@ -274,6 +274,14 @@ vendor/lib64/libsdmextension.so|913503f002aa2afbeca90d429bac4bff4a2266e0
 vendor/lib/hw/vulkan.sdm660.so|6df3aa5c6badc46bc7a0367b9a62b0ab5b406159
 vendor/lib64/hw/vulkan.sdm660.so|f0cf8bccfcfd0473a2c0322b1274dc4d752f2abb
 
+# Hotword enrollment
+-product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk;PRESIGNED
+-product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk;PRESIGNED
+system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
+system_ext/framework/com.android.hotwordenrollment.common.util.jar
+product/etc/permissions/privapp-permissions-google-hotword.xml
+product/etc/sysconfig/hotword-hiddenapi-package-whitelist.xml
+
 # IRQ balance - from jasmine
 vendor/bin/msm_irqbalance|e917104fbd26c844d27ffb2b7ec4f665fdfb8b78
 
